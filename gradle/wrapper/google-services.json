@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1099059230408",
+    "firebase_url": "https://indianrailwayservice.firebaseio.com",
+    "project_id": "indianrailwayservice",
+    "storage_bucket": "indianrailwayservice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099059230408:android:bd2a4755de05915d",
+        "android_client_info": {
+          "package_name": "com.example.krisha.lostandfound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099059230408-tjnuduqcnsavsagrn4t4jjtgkjbun0e2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krisha.lostandfound",
+            "certificate_hash": "091b9ed7bcafebde631dceb4a5e3b7f6f0782fb9"
+          }
+        },
+        {
+          "client_id": "1099059230408-qj9575c77pgo53adaq96t4f2aa7vbl89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3qVHSvabzCjoY2OXu18OkHCU6C9X-urw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099059230408-qj9575c77pgo53adaq96t4f2aa7vbl89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

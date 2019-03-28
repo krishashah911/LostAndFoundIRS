@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_alignParentTop="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card11"
+        android:layout_below="@id/card10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textViewTitle11"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="0dp"
+                android:text="Kurla Railway Office"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewShortDesc11"
+                android:layout_width="243dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTitle11"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="-3dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_toStartOf="@+id/image_call11"
+                android:layout_toLeftOf="@+id/image_call11"
+                android:text="Station Brahmanwadi, Kurla, 400024"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_call11"
+                android:layout_width="80dp"
+                android:layout_height="65dp"
+                android:layout_below="@+id/textViewTitle11"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                app:srcCompat="@drawable/calling" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card5"
+        android:layout_below="@id/card4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="10dp"
+        tools:background="@android:color/darker_gray">
+
+        <RelativeLayout
+            android:layout_width="379dp"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textViewTitle5"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="0dp"
+                android:text="Bandra Railway Office"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewShortDesc5"
+                android:layout_width="243dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTitle5"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="-3dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_toStartOf="@+id/image_call5"
+                android:layout_toLeftOf="@+id/image_call5"
+                android:layout_toRightOf="@id/imageView2"
+                android:text="Bairam Naupada, Bandra East, Mumbai, Maharashtra"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_call5"
+                android:layout_width="80dp"
+                android:layout_height="65dp"
+                android:layout_below="@+id/textViewTitle5"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                app:srcCompat="@drawable/calling" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card16"
+            android:layout_below="@id/card15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle16"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Surat Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc16"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle16"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Railway Station Area, Varachha, Surat, Gujarat 395003"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call16"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle16"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+    android:id="@+id/card7"
+    android:layout_below="@id/card6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="10dp"
+    tools:background="@android:color/darker_gray">
+
+    <RelativeLayout
+        android:layout_width="379dp"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textViewTitle7"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="0dp"
+            android:text="Delhi Railway Office"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewShortDesc"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTitle7"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="-3dp"
+            android:text="Bhavbhuti Marg, Ajmeri Gate, New Delhi,110006"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_call7"
+            android:layout_width="80dp"
+            android:layout_height="65dp"
+            android:layout_below="@+id/textViewTitle7"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            app:srcCompat="@drawable/calling" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card14"
+        android:layout_below="@id/card13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="10dp"
+        tools:background="@android:color/darker_gray">
+
+        <RelativeLayout
+            android:layout_width="379dp"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textViewTitle14"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="0dp"
+                android:text="Pune Railway Office"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewShortDesc14"
+                android:layout_width="243dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTitle14"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="-3dp"
+                android:text="Agarkar Nagar, Pune, Maharashtra 411001"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_call14"
+                android:layout_width="80dp"
+                android:layout_height="65dp"
+                android:layout_below="@+id/textViewTitle14"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                app:srcCompat="@drawable/calling" />
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Agra Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc1"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle1"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Gadhapura, Civil Lines, Agra, Uttar Pradesh 282003"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call1"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card2"
+            android:layout_below="@id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Ahemdabad Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc2"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle2"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Kalupur Railway Station Rd, Sakar Bazzar, Gujarat 380002"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call2"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card3"
+            android:layout_below="@id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Ajmer Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc3"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle3"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Jaipur Road, Patel Nagar, Topdara, Ajmer, Rajasthan 305001"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call3"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card4"
+            android:layout_below="@id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Amritsar Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc4"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle4"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Guru Arjun Nagar, Amritsar, Punjab 143002"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call4"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card6"
+            android:layout_below="@id/card5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle6"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Dadar Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc6"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle6"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Dadar East, Dadar, Mumbai, Maharashtra 400014"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call6"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle6"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card8"
+            android:layout_below="@id/card7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle8"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Gorakhpur Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc8"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle8"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Kawwa Bagh Colony, Gorakhpur, Uttar Pradesh 273012"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call8"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle8"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card9"
+            android:layout_below="@id/card8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle9"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Howrah Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc9"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle9"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Lower Foreshore Rd, Howrah 711101,West Bengal"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call9"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle9"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card10"
+            android:layout_below="@id/card9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle10"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Indore Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc10"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle10"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Chhoti Gwaltoli, Indore, Madhya Pradesh 452007"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call10"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle10"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card12"
+            android:layout_below="@id/card11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle12"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Madgaon Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc12"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle12"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Sanscar Society, Margao, Goa 403601"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call12"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle12"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card13"
+            android:layout_below="@id/card12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle13"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Nashik Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc13"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle13"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Lali Gaon, Nashik, Maharashtra 422214"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call13"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle13"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card15"
+            android:layout_below="@id/card14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="10dp"
+            tools:background="@android:color/darker_gray">
+
+            <RelativeLayout
+                android:layout_width="379dp"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/textViewTitle15"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Rajkot Railway Office"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewShortDesc15"
+                    android:layout_width="243dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewTitle15"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="-3dp"
+                    android:text="Railway Station Rd, Junction Plot, Rajkot, Gujarat 360001"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_call15"
+                    android:layout_width="80dp"
+                    android:layout_height="65dp"
+                    android:layout_below="@+id/textViewTitle15"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_marginRight="19dp"
+                    app:srcCompat="@drawable/calling" />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+</ScrollView>
